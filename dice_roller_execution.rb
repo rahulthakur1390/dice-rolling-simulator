@@ -1,20 +1,6 @@
 require_relative 'roll_result'
 require_relative 'dice_roller'
 
-
-
-# # Roll a single 6-sided die
-# result1 = dice_roller.roll([6])
-# puts result1
-
-# # Roll two 8-sided dice
-# result2 = dice_roller.roll([8, 8])
-# puts result2
-
-# # Roll one 6-sided die and one 20-sided die
-# result3 = dice_roller.roll([6, 20])
-# puts result3
-
 def initiate_execution
   puts "Welcome to the Dice Roller!"
   puts "Specify no's of dice are to be rolled"
@@ -51,6 +37,3 @@ def get_dice_sides(dice_count)
 end
 
 initiate_execution()
-
-
-
